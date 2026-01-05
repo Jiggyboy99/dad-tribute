@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Not All Heroes Wear Capes</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- GSAP -->
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+  <!-- BACKGROUND -->
+  <div class="bg-gradient"></div>
+  <div class="bg-blobs"></div>
+
+  <!-- MUSIC -->
+<audio id="bgMusic" preload="auto">
+  <source src="./audio/song.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+  </audio>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="glass">
+      <h1 id="typewriter"></h1>
+      <p class="subtitle">
+        Some heroes don’t wear capes.<br>
+        They raise men. Lead homes. Kneel in prayer.
+      </p>
+      <button id="playMusic">▶ Play Song</button>
+      <span class="scroll">Scroll ↓</span>
+    </div>
+  </section>
+
+  <!-- BIG STATEMENT -->
+  <section class="big-text">
+    <h1>
+      I love you<br>
+      <span>so much</span><br>
+      Dad.
+    </h1>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery">
+    <h2 class="gallery-title">Memories 🤍</h2>
+
+    <div class="gallery-grid">
+      <div class="photo-card"><img src="images/dad1.jpg"><span>Strength</span></div>
+      <div class="photo-card"><img src="images/dad2.jpg"><span>Faith</span></div>
+      <div class="photo-card"><img src="images/dad3.jpg"><span>Discipline</span></div>
+      <div class="photo-card"><img src="images/dad4.jpg"><span>Love</span></div>
+      <div class="photo-card"><img src="images/dad5.jpg"><span>Sacrifice</span></div>
+      <div class="photo-card"><img src="images/dad6.jpg"><span>Guidance</span></div>
+      <div class="photo-card"><img src="images/dad7.jpg"><span>Consistency</span></div>
+      <div class="photo-card"><img src="images/dad8.jpg"><span>My Hero</span></div>
+    </div>
+  </section>
+
+  <!-- VALUES -->
+  <section class="values">
+    <h2>God First.</h2>
+    <p>
+      He taught me that falling is human.<br>
+      Standing up is character.
+    </p>
+  </section>
+
+  <!-- METRICS -->
+  <section class="metrics">
+    <h2>Who You Are To Me</h2>
+
+    <div class="metric">
+      <span>Faith</span>
+      <div class="bar"><div class="fill" style="--w:100%"></div></div>
+    </div>
+
+    <div class="metric">
+      <span>Love</span>
+      <div class="bar"><div class="fill" style="--w:98%"></div></div>
+    </div>
+
+    <div class="metric">
+      <span>Sacrifice</span>
+      <div class="bar"><div class="fill" style="--w:96%"></div></div>
+    </div>
+
+    <div class="metric">
+      <span>Diligence</span>
+      <div class="bar"><div class="fill" style="--w:94%"></div></div>
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <section class="final">
+    <div class="glass">
+      <h2>Thank You Jesus</h2>
+      <p>For the gift of my father.</p>
+      <span class="signature">Happy Birthday Dad 🤍</span>
+    </div>
+  </section>
+
+  <footer class="footer">
+    Built with love by Akinloye Oluwatobiloba
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
